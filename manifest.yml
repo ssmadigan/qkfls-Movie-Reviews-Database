@@ -3,3 +3,6 @@ applications:
  - name: movies-reviews-database
    random-route: false
    memory: 128M
+   services:
+   - madigan-cloudant
+   - madigan-nlu
